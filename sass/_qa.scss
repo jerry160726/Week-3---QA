@@ -1,6 +1,7 @@
 .content {
     padding-top: 96px;
     padding-bottom: 128px;
+    padding-left: 15px;
 
     h1 {
         font-size: 48px;
@@ -31,9 +32,6 @@
 }
 
 @include pad() {
-    .container {
-        max-width: 87%;
-    }
     .content {
         padding-top: 60px;
         padding-bottom: 72px;
@@ -54,9 +52,6 @@
 }
 
 @include iphoneX() {
-    .container {
-        max-width: 94%;
-    }
     .content {
         padding-top: 28px;
         padding-bottom: 36px;

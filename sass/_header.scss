@@ -1,18 +1,3 @@
-.pl-5 {
-    @include pl-5;
-  }
-  
-  .pl-8 {
-    @include pl-8;
-  }
-  
-  .pr-8 {
-    @include pr-8;
-  }
-  
-  $font-l: 36px; //下方連結跟回答
-  $font-s: 16px; //下方連結跟回答
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -27,7 +12,7 @@
     .menu {
         display: flex;
         li {
-            @include pl-8;
+            padding-left: 64px;
         }
         li a:hover {
             @include hover(orange, black);
@@ -43,7 +28,7 @@
     .header {
         padding: 30px 39px;
         .menu li {
-            @include pl-5;
+            padding-left: 40px;
         }
     }
 }
